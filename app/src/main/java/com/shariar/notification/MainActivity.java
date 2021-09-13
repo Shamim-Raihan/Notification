@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println("this is third commit");
 
+        System.out.println("this is four commit");
+
         btn1 = findViewById(R.id.btn1);
         title = findViewById(R.id.id1);
         message = findViewById(R.id.id2);
