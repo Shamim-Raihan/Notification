@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().setTitle("Notification");
+
         btn1 = findViewById(R.id.btn1);
         title = findViewById(R.id.id1);
         message = findViewById(R.id.id2);
@@ -63,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         notificationManagerCompat.notify(1, notification);
+
 
     }
 }
