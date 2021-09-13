@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().setTitle("Notification");
 
+        System.out.println("this is third commit");
+
         btn1 = findViewById(R.id.btn1);
         title = findViewById(R.id.id1);
         message = findViewById(R.id.id2);
